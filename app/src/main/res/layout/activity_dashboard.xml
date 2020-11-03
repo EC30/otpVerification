@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/otp_background"
+        tools:context=".Dashboard">
+
+        <TextView
+            android:id="@+id/verificationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="140dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:gravity="center"
+            android:text="Verification code"
+            android:textColor="#D28E24AA"
+            android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/verificationText"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/nunito_semibold"
+        android:gravity="center"
+        android:text="A verification code has been sent to "
+        android:textColor="#D28E24AA"
+        android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/numberText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_semibold"
+            android:gravity="center"
+            android:text="1234"
+            android:textColor="#D28E24AA"
+            android:layout_below="@id/text"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_below="@id/numberText"
+            android:layout_marginTop="200dp">
+
+            <EditText
+                android:id="@+id/firstCode"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:textAlignment="center"
+                android:imeOptions="actionNext"
+                android:cursorVisible="true"
+                android:textColor="@color/color5"
+                android:maxLength="1"
+                android:inputType="number"
+                android:background="@drawable/otp_code_bg"/>
+
+            <EditText
+                android:id="@+id/secondCode"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:imeOptions="actionNext"
+                android:cursorVisible="true"
+                android:textColor="@color/color5"
+                android:maxLength="1"
+                android:inputType="number"
+                android:background="@drawable/otp_code_bg"/>
+
+            <EditText
+                android:id="@+id/thirdCode"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:imeOptions="actionNext"
+                android:cursorVisible="true"
+                android:textColor="@color/color5"
+                android:maxLength="1"
+                android:inputType="number"
+                android:background="@drawable/otp_code_bg"/>
+
+            <EditText
+                android:id="@+id/fourthCode"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:imeOptions="actionNext"
+                android:cursorVisible="true"
+                android:textColor="@color/color5"
+                android:maxLength="1"
+                android:inputType="number"
+                android:background="@drawable/otp_code_bg"/>
+
+            <EditText
+                android:id="@+id/fifthCode"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:imeOptions="actionNext"
+                android:cursorVisible="true"
+                android:textColor="@color/color5"
+                android:maxLength="1"
+                android:inputType="number"
+                android:background="@drawable/otp_code_bg"/>
+
+            <EditText
+                android:id="@+id/sixthCode"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:imeOptions="actionNext"
+                android:cursorVisible="true"
+                android:textColor="@color/color5"
+                android:maxLength="1"
+                android:inputType="number"
+                android:background="@drawable/otp_code_bg"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_resend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_below="@id/linearLayout"
+            android:background="@drawable/otp_code_bg"
+            android:textColor="@color/color5"
+            android:textSize="18dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Resend code"/>
+
+        <Button
+            android:id="@+id/btn_continue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_below="@id/btn_resend"
+            android:background="@drawable/otp_code_bg"
+            android:textColor="@color/color5"
+            android:textSize="18dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Continue"/>
+
+    </RelativeLayout>

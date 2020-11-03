@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "36038472690",
+    "firebase_url": "https://otpverification-ad241.firebaseio.com",
+    "project_id": "otpverification-ad241",
+    "storage_bucket": "otpverification-ad241.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36038472690:android:520e04c40be73d9cdf716b",
+        "android_client_info": {
+          "package_name": "com.anjali.sampleapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36038472690-dm4vk4t8api59fscaqf6fll8hstq8pn1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anjali.sampleapplication",
+            "certificate_hash": "a034eeee3418e475e107e3746b64d1b62f1c85a5"
+          }
+        },
+        {
+          "client_id": "36038472690-iascil7k66f3lg0gg7ksq4b98dqq6tai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL7S37cUODCN59_oF7iVEmq6skxjZNnY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36038472690-iascil7k66f3lg0gg7ksq4b98dqq6tai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
